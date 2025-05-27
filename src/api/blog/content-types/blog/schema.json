@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs",
+  "info": {
+    "singularName": "blog",
+    "pluralName": "blogs",
+    "displayName": "Blog"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "authors": {
+      "type": "json"
+    },
+    "date": {
+      "type": "date"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "tag": {
+      "type": "enumeration",
+      "enum": [
+        "Technology",
+        "Travel"
+      ]
+    }
+  }
+}
