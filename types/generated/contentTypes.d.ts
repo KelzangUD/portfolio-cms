@@ -407,6 +407,7 @@ export interface ApiBlogBlog extends Struct.CollectionTypeSchema {
 export interface ApiHeroHero extends Struct.CollectionTypeSchema {
   collectionName: 'heroes';
   info: {
+    description: '';
     displayName: 'Hero';
     pluralName: 'heroes';
     singularName: 'hero';
@@ -423,7 +424,7 @@ export interface ApiHeroHero extends Struct.CollectionTypeSchema {
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::hero.hero'> &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
-    subheadr: Schema.Attribute.Text;
+    subheader: Schema.Attribute.Text;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
