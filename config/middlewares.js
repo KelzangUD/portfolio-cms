@@ -3,10 +3,10 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['*'], // Allow all origins
-      methods: ['*'], // Allow all HTTP methods
-      headers: ['*'], // Allow all headers
-      credentials: true, // Allow credentials (cookies, auth headers, etc.)
+      origin: ['https://portfolio-kelzanguds-projects.vercel.app'], // allow Vercel app
+      methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+      headers: ['Content-Type', 'Authorization'],
+      credentials: true,
     },
   },
   'strapi::security',
