@@ -3,8 +3,8 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['http://localhost:3000', 'https://portfolio-kelzanguds-projects.vercel.app', "https://portfolio-git-main-kelzanguds-projects.vercel.app/"],
-      methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
+      origin: ['*'],
+      methods: ['GET'],
       headers: ['Content-Type', 'Authorization'],
       credentials: true,
     },
