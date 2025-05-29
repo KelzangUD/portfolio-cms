@@ -4,7 +4,8 @@
   "info": {
     "singularName": "blog",
     "pluralName": "blogs",
-    "displayName": "Blog"
+    "displayName": "Blog",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,16 +13,6 @@
   "attributes": {
     "title": {
       "type": "string"
-    },
-    "img": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": true
     },
     "description": {
       "type": "text"
@@ -41,6 +32,9 @@
         "Technology",
         "Travel"
       ]
+    },
+    "img_url": {
+      "type": "string"
     }
   }
 }

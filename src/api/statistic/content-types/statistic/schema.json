@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "statistics",
+  "info": {
+    "singularName": "statistic",
+    "pluralName": "statistics",
+    "displayName": "Statistic"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "figure": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

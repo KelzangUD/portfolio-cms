@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "what_i_dos",
+  "info": {
+    "singularName": "what-i-do",
+    "pluralName": "what-i-dos",
+    "displayName": "What I Do"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

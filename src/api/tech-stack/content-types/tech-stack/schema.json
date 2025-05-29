@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tech_stacks",
+  "info": {
+    "singularName": "tech-stack",
+    "pluralName": "tech-stacks",
+    "displayName": "Tech Stack"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icons": {
+      "type": "json"
+    }
+  }
+}

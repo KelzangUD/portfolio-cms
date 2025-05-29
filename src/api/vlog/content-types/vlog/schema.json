@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vlogs",
+  "info": {
+    "singularName": "vlog",
+    "pluralName": "vlogs",
+    "displayName": "Vlogs"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Project"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "role": {
+      "type": "string"
+    },
+    "techStacks": {
+      "type": "text"
+    },
+    "date": {
+      "type": "date"
+    },
+    "url": {
+      "type": "string"
+    },
+    "img_url": {
+      "type": "string"
+    },
+    "mock_up_url": {
+      "type": "string"
+    }
+  }
+}

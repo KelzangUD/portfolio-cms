@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "galleries",
+  "info": {
+    "singularName": "gallery",
+    "pluralName": "galleries",
+    "displayName": "Gallery"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "aspectRatio": {
+      "type": "string"
+    },
+    "md": {
+      "type": "integer"
+    },
+    "alt": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

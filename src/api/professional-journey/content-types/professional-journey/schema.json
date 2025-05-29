@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "professional_journeys",
+  "info": {
+    "singularName": "professional-journey",
+    "pluralName": "professional-journeys",
+    "displayName": "Professional Journey"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "year": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
