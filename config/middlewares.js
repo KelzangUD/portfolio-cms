@@ -6,9 +6,15 @@ module.exports = [
       origin: [
         "https://portfolio-kelzanguds-projects.vercel.app",
         "http://localhost:3000",
-      ], // allow Vercel app
+      ],
       methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-      headers: ["Content-Type", "Authorization"],
+      headers: [
+        "Content-Type",
+        "Authorization",
+        "Origin",
+        "Accept",
+        "X-Requested-With",
+      ],
       credentials: true,
     },
   },
