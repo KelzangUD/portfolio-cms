@@ -6,6 +6,7 @@ module.exports = [
       origin: [
         "https://portfolio-kelzanguds-projects.vercel.app",
         "http://localhost:3000",
+        "https://www.kelzangud.com",
       ],
       methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
       headers: [
